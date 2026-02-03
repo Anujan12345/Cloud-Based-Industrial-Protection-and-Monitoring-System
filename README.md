@@ -26,6 +26,21 @@ The system continuously monitors industrial parameters using sensors, transmits 
 
 ## ⚙️ System Architecture
 
+<p align="center">
+  <img src="images/Light.jpg" alt="Light Sensor Interface" width="300" height="200">
+  <img src="images/Temperature.jpg" alt="Temperature Sensor Interface" width="300" height="200">
+</p>
+
+<p align="center">
+  <img src="images/gas.jpg" alt="Gas Sensor Interface" width="300" height="200">
+  <img src="images/sound.jpg" alt="Sound Sensor Interface" width="300" height="200">
+</p>
+
+<p align="center">
+  <b>Figure 1:</b> ESP32-based sensor interfacing for gas, temperature, light, and sound monitoring
+</p>
+
+
 The system consists of three main layers:
 
 1. **Sensing Layer**
@@ -56,6 +71,19 @@ The system consists of three main layers:
 - Power Supply Unit
 - Alarm / Indicator Modules
 - Communication Module (Wi-Fi)
+
+---
+
+## 🧪 Final Prototype Implementation
+
+<p align="center">
+  <img src="images/Final_Product.jpeg" alt="Final Prototype - Cloud Based Industrial Protection System" width="70%">
+</p>
+
+<p align="center">
+  <b>Figure 2:</b> Final hardware prototype of the Cloud-Based Industrial Protection and Monitoring System
+</p>
+
 
 ---
 
@@ -98,16 +126,4 @@ The system consists of three main layers:
 
 ---
 
-## 📁 Suggested Repository Structure
 
-```text
-├── code/
-│   └── firmware.ino
-├── cloud/
-│   └── dashboard_config/
-├── images/
-│   ├── system_architecture.png
-│   └── prototype.jpg
-├── report/
-│   └── Report.pdf
-└── README.md
